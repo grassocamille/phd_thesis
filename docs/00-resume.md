@@ -1,0 +1,9 @@
+\chapter*{Résumé}
+
+\initial{L}'individu se nourrit d’un ensemble de concepts dont il n’a pourtant aucune expérience sensorielle et motrice. Cette capacité à transcender le monde physique pour construire un univers de représentations abstraites, comme celle de temps, est considérée comme l’une des plus sophistiquées de la cognition humaine. Si l’implication des processus sensorimoteurs dans le traitement des mots concrets est aujourd’hui établie, leur rôle dans le traitement des mots abstraits est au cœur d’un vif débat. À partir de propositions théoriques comme celles de la réutilisation neuronale et de l’apprentissage par corrélation, nous proposons une piste explicative de l’ancrage des concepts abstraits temporels. Dans une série de cinq études, nous avons mis en évidence le rôle du mouvement dans l’émergence d’effets de congruence spatio-temporelle lors du traitement de mots liés au temps. Plusieurs propositions théoriques peuvent êtes faites à la lumière de nos résultats. La première est que le concept de temps pourrait s’ancrer directement dans l’expérience temporelle qui accompagne le mouvement. En ce sens, les chevauchements entre temps et espace n’impliqueraient pas que le temps soit intrinsèquement de nature spatiale, mais que temps et espace soient confondus parce que vécus ensemble via le mouvement. La deuxième est que les mécanismes qui sous-tendent la représentation et le traitement des concepts temporels pourraient réutiliser ceux de la planification motrice et de la cognition spatiale. La troisième est que l’action répétée de lecture et d’écriture pourrait constituer l’expérience sensorimotrice de premier ordre qui définit le cadre d’ancrage de temps, et lie ensemble espace et temps.
+
+\vspace{\baselineskip}
+
+**Mots-clés** : Cognition incarnée, Reconnaissance visuelle de mots, Mouvement, Concepts abstraits, Temps, Espace  
+
+\afterpage{\blankpage}
