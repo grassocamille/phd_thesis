@@ -1,0 +1,26 @@
+book_filename: "thesis"
+chapter_name: "Chapitre "
+delete_merged_file: true
+output_dir: "docs"
+new_session: yes
+
+# defines the .Rmd files to be included in each output format
+rmd_files:
+  latex: [
+    "index.Rmd",
+    "00-affidavit.Rmd", "00-publications.Rmd",
+    "00-resume.Rmd", "00-abstract.Rmd",
+    "00-acknowledgements.Rmd",
+    "00-preface.Rmd", "00-toc.Rmd",
+    "01-chap1.Rmd", "02-chap2.Rmd",
+    "03-chap3.Rmd", "04-chap4.Rmd",
+    "05-chap5.Rmd", "06-chap6.Rmd",
+    "90-appendix_part.Rmd", "91-appendix_commentary.Rmd",
+    "99-references.Rmd"
+    ]
+
+# defines custom words in French
+language:
+  label:
+    fig: "Figure "
+    tab: "Tableau "

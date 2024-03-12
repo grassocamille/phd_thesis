@@ -1,0 +1,9 @@
+\chapter*{Abstract}
+
+\initial{H}umans are equipped with a set of concepts of which they have no perceptive or motor experience. This capacity to transcend the physical world to build a universe of abstract representations, such as astrophysics or time, is one of the most sophisticated of human cognition. If the involvement of sensorimotor processes in the processing of concrete words is now established, their role in the representation and the processing of abstract concepts is at the heart of a lively debate. Based on a detailed review of data from the literature, and theoretical proposals such as neural reuse and correlational learning, we examined the way in which temporal abstract concepts could be grounded. In a series of five experiments, we investigated the role of movement in the emergence of space-time congruency effects during the visual processing of words conveying temporal information. Overall, our results suggest that movement plays a key role for the grounding (and the processing) of the temporal content of these words. Considering our results, several theoretical propositions (not exclusive) can be made. First, the abstract concept of time could be directly grounded in the temporal experience that accompanies the execution of the movement. In this sense, the overlaps between time and space would not imply that time is intrinsically spatial in nature, but that time and space are generally confused because they are experienced together through movement. Second, the mechanisms underlying the representation and processing of temporal concepts could reuse those of motor planning and spatial cognition. Third, the repeated action of reading and writing could constitute the sensorimotor experience that links space and time together.
+
+\vspace{\baselineskip}
+
+**Key-words**: Embodied cognition, Visual word processing, Movement, Abstract concepts, Time, Space
+
+\afterpage{\blankpage}

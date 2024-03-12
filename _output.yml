@@ -1,0 +1,26 @@
+# generating the pdf version of the thesis
+bookdown::pdf_book:
+  includes:
+    in_header: latex/preamble.tex # defines style and latex options
+    before_body: latex/titre.tex # defines title page
+  latex_engine: xelatex # options are pdflatex, xelatex, or lualatex
+  citation_package: default
+  keep_tex: true # keeps the .tex file
+  toc_appendix: true # adds the appendix part to the table of contents
+  dev: "cairo_pdf" # plotting device
+  toc: false # deactivates default table of contents
+  highlight: pygments # code highlighting style
+  # md_extensions: -smart
+  pandoc_args: ["--csl", "./csl/apa7.csl"] # specifies the .csl (citation style) file
+
+# https://github.com/rstudio/rmarkdown/issues/2023
+# md_extensions: -smart
+
+# generating the word version of the thesis
+# bookdown::word_document2:
+#   pandoc_args: [
+#     "--csl", "./csl/apa7.csl",
+#     "--bibliography", "./bib/packages.bib",
+#     "--bibliography", "./bib/thesis.bib",
+#     "--filter", "pandoc-citeproc"
+#     ]
