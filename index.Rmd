@@ -1,0 +1,28 @@
+--- 
+title: Traitement des mots abstraits
+author: "" # defined in _output.yml
+date: "" # defined in _output.yml
+site: bookdown::bookdown_site
+
+documentclass: memoir # using the memoir package
+classoption: a4paper,12pt,twoside,onecolumn,openright,final,oldfontcommands
+
+lot: false # deactivating the default list of tables
+lof: false # deactivating the default list of figures
+
+link-citations: yes
+bibliography: [bib/these.bib, bib/packages.bib]
+# references appearing in the references section but not in text
+nocite: "@lund_producing_1996, @landauer_solution_1997, @meteyard_coming_2012, @washburn_movement_1916, @lowel_selection_1992, @wachowski_matrix_1999"
+---
+
+`r if (knitr::is_html_output() ) '# Résumé {-}'`
+
+```{r abstract, include = identical(knitr:::pandoc_to(), "html"), results = "asis", echo = FALSE}
+cat("L'individu se nourrit d’un ensemble de concepts dont il n’a pourtant aucune expérience sensorielle et motrice. Cette capacité à transcender le monde physique pour construire un univers de représentations abstraites, comme celle de temps, est considérée comme l’une des plus sophistiquées de la cognition humaine. Si l’implication des processus sensorimoteurs dans le traitement des mots concrets est aujourd’hui établie, leur rôle dans le traitement des mots abstraits est au cœur d’un vif débat. À partir de propositions théoriques comme celles de la réutilisation neuronale et de l’apprentissage par corrélation, nous proposons une piste explicative de l’ancrage des concepts abstraits temporels. Dans une série de cinq études, nous avons mis en évidence le rôle du mouvement dans l’émergence d’effets de congruence spatio-temporelle lors du traitement de mots liés au temps. Plusieurs propositions théoriques peuvent êtes faites à la lumière de nos résultats. La première est que le concept de temps pourrait s’ancrer directement dans l’expérience temporelle qui accompagne le mouvement. En ce sens, les chevauchements entre temps et espace n’impliqueraient pas que le temps soit intrinsèquement de nature spatiale, mais que temps et espace soient confondus parce que vécus ensemble via le mouvement. La deuxième est que les mécanismes qui sous-tendent la représentation et le traitement des concepts temporels pourraient réutiliser ceux de la planification motrice et de la cognition spatiale. La troisième est que l’action répétée de lecture et d’écriture pourrait constituer l’expérience sensorimotrice de premier ordre qui définit le cadre d’ancrage de temps, et lie ensemble espace et temps.")
+```
+
+```{r writebib, eval = FALSE, include = FALSE, warning = FALSE}
+# automatically creates a .bib file for all installed R packages
+knitr::write_bib(x = installed.packages()[, 1], file = "bib/packages.bib")
+```
